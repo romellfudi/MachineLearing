@@ -1,3 +1,4 @@
 ### JupyterNotebook ###
 .ipynb_checkpoints/
 *.html
+*.py
