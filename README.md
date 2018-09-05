@@ -14,5 +14,13 @@ You can also view online via:
 
 [Machine Learning Tuning](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb)
 
+## Requirements
+
+* [Python 3.6](https://www.python.org/downloads/release/python-360/)
+* [Jupyter Notebook](http://jupyter.org/)
+
+## License
+
+MIT. See the LICENSE file for the copyright notice.
+
 **2018, August**
-<style> img[src*='#center'] { width:500px; display: block; margin: auto; } </style>
