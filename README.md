@@ -6,13 +6,13 @@
 ### By Romell Domínguez
 [![](snapshot/icono.png)](https://www.romellfudi.com/)
 
-You can also view online via:
+### You can also view online via:
 
-[Supervised Learning](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/1.Supervised%20Learning.ipynb)
+#### Supervised Learning -> view [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/1.Supervised%20Learning.ipynb) run kernel via [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=1.Supervised%2520Learning.ipynb) or [![Colab](https://img.shields.io/badge/launch-colaboratory-yellow.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/1.Supervised%20Learning.ipynb)
 
-[Unsupervised Learning](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/2.Unsupervised%20Learning.ipynb)
+#### Unsupervised Learning -> view [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/2.Unsupervised%20Learning.ipynb) run kernel via [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=2.Unsupervised%2520Learning.ipynb) or[![Colab](https://img.shields.io/badge/launch-colaboratory-yellow.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/2.Unsupervised%20Learning.ipynb)
 
-[Machine Learning Tuning](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb)
+#### Machine Learning Tuning -> view [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb) run kernel via [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=3.Machine%2520Learning%2520Tuning.ipynb) or [![Colab](https://img.shields.io/badge/launch-colaboratory-yellow.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb)
 
 ## Requirements
 
