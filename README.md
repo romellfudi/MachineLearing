@@ -1,4 +1,4 @@
-## Machine Learning Estimator Components
+## Machine Learning Estimators & Components
  
 
 ### By Romell Domínguez
