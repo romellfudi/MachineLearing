@@ -31,6 +31,7 @@ MIT. See the LICENSE file for the copyright notice.
 <style>
 img[src*='#plot'] { 
     width:350px;
+    display: block;
 }
 img[src*='#favico'] { 
     width:200px;
