@@ -1,5 +1,3 @@
-# Machine Learning
-
 ## Machine Learning Estimator Components
  
 
