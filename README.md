@@ -1,7 +1,7 @@
 ## Machine Learning Estimators & Components
 
 ### By Romell Domínguez
-[![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico#favico)](https://www.romellfudi.com/)
+[![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico)](https://www.romellfudi.com/)
 
 ### You can also view online via:
 
@@ -43,10 +43,5 @@ MIT. See the LICENSE file for the copyright notice.
 <style>
 img[src*='#plot'] { 
     width:350px;
-}
-img[src*='#favico'] { 
-    width:200px;
-    display: block;
-    margin: auto;
 }
 </style>
