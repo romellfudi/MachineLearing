@@ -5,29 +5,25 @@
 
 ### You can also view online via:
 
-#### Supervised Learning -> [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/1.Supervised%20Learning.ipynb) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=1.Supervised%2520Learning.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/1.Supervised%20Learning.ipynb)
+#### Supervised Learning -> [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/1.Supervised%20Learning.ipynb) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=1.Supervised%20Learning.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/1.Supervised%20Learning.ipynb)
 
-![](snapshot/global_fertility_rate.png#plot)
+![](snapshot/global_fertility_rate.png#plot) ![](snapshot/global_fertility_hopelife.png#plot)
 
-![](snapshot/global_benchmarking.png#plot)
+![](snapshot/global_benchmarking.png#plot) ![](snapshot/global_lasso_regression.png#plot)
 
-![](snapshot/global_knn6_validation_curve.png#plot)
+![](snapshot/global_knn6_validation_curve.png#plot) ![](snapshot/global_ridge_regression.png#plot)
 
-#### Unsupervised Learning -> [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/2.Unsupervised%20Learning.ipynb) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=2.Unsupervised%2520Learning.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/2.Unsupervised%20Learning.ipynb)
+#### Unsupervised Learning -> [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/2.Unsupervised%20Learning.ipynb) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=2.Unsupervised%20Learning.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/2.Unsupervised%20Learning.ipynb)
 
-![](snapshot/centroid_clusters.png#plot)
+![](snapshot/centroid_clusters.png#plot) ![](snapshot/hierarchy_clusters.png#plot)
 
-![](snapshot/pca_clusters.png#plot) 
+![](snapshot/pca_clusters.png#plot) ![](snapshot/tsne_clusters.png#plot)
 
-![](snapshot/inertia_clusters.png#plot)
+#### Machine Learning Tuning -> [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=3.Machine%20Learning%20Tuning.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb)
 
-#### Machine Learning Tuning -> [![NBViwer](https://img.shields.io/badge/display-nbviwer-blue.svg)](http://nbviewer.jupyter.org/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/romellfudi/MachineLearing/master?filepath=3.Machine%2520Learning%2520Tuning.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romellfudi/MachineLearing/blob/master/3.Machine%20Learning%20Tuning.ipynb)
+![](snapshot/learning_curve.png#plot) ![](snapshot/roc_curve.png#plot)
 
-![](snapshot/learning_curve.png#plot)
-
-![](snapshot/validation_curve.png#plot) 
-
-![](snapshot/lift_curve.png#plot)
+![](snapshot/validation_curve.png#plot) ![](snapshot/lift_curve.png#plot)
 
 ## Requirements
 
