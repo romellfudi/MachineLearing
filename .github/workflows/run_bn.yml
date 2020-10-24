@@ -16,6 +16,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install nbconvert==5.6.1
         pip install watermark
+        pip install git+https://github.com/reiinakano/scikit-plot
         pip install -r requirements.txt
     - uses: yaananth/run-notebook@v1
       env:
