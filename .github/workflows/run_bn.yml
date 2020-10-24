@@ -1,0 +1,66 @@
+name: Execute notebook
+
+on: [push]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python  
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - name: Install nbconvert
+      run: | 
+        python -m pip install --upgrade pip
+        pip install nbconvert==5.6.1, watermark
+        pip install -r requirements.txt
+    - uses: yaananth/run-notebook@v1
+      env:
+        RUNNER: ${{ toJson(runner) }}
+        SECRETS: ${{ toJson(secrets) }}
+        GITHUB: ${{ toJson(github) }}
+      with:
+        notebook: "1.Supervised Learning.ipynb"
+        params: "parameters.json"
+        isReport: False
+    - uses: actions/upload-artifact@master
+      if: always()
+      with:
+        name: Supervised Learning
+        path: ${{ RUNNER.temp }}/nb-runner
+      env:
+        RUNNER: ${{ toJson(runner) }}
+    - uses: yaananth/run-notebook@v1
+      env:
+        RUNNER: ${{ toJson(runner) }}
+        SECRETS: ${{ toJson(secrets) }}
+        GITHUB: ${{ toJson(github) }}
+      with:
+        notebook: "2.Unsupervised Learning.ipynb"
+        params: "parameters.json"
+        isReport: False
+    - uses: actions/upload-artifact@master
+      if: always()
+      with:
+        name: Unsupervised Learning
+        path: ${{ RUNNER.temp }}/nb-runner
+      env:
+        RUNNER: ${{ toJson(runner) }}
+    - uses: yaananth/run-notebook@v1
+      env:
+        RUNNER: ${{ toJson(runner) }}
+        SECRETS: ${{ toJson(secrets) }}
+        GITHUB: ${{ toJson(github) }}
+      with:
+        notebook: "3.Machine Learning Tuning.ipynb"
+        params: "parameters.json"
+        isReport: False
+    - uses: actions/upload-artifact@master
+      if: always()
+      with:
+        name: Machine Learning Tuning
+        path: ${{ RUNNER.temp }}/nb-runner
+      env:
+        RUNNER: ${{ toJson(runner) }}
