@@ -27,13 +27,6 @@ jobs:
         notebook: "1.Supervised Learning.ipynb"
         params: "parameters.json"
         isReport: False
-    - uses: actions/upload-artifact@master
-      if: always()
-      with:
-        name: Supervised Learning
-        path: ${{ RUNNER.temp }}/nb-runner
-      env:
-        RUNNER: ${{ toJson(runner) }}
     - uses: yaananth/run-notebook@v1
       env:
         RUNNER: ${{ toJson(runner) }}
@@ -43,13 +36,6 @@ jobs:
         notebook: "2.Unsupervised Learning.ipynb"
         params: "parameters.json"
         isReport: False
-    - uses: actions/upload-artifact@master
-      if: always()
-      with:
-        name: Unsupervised Learning
-        path: ${{ RUNNER.temp }}/nb-runner
-      env:
-        RUNNER: ${{ toJson(runner) }}
     - uses: yaananth/run-notebook@v1
       env:
         RUNNER: ${{ toJson(runner) }}
@@ -62,7 +48,7 @@ jobs:
     - uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Machine Learning Tuning
+        name: output
         path: ${{ RUNNER.temp }}/nb-runner
       env:
         RUNNER: ${{ toJson(runner) }}
